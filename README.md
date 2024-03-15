@@ -32,4 +32,4 @@ For this project, I choose Position Based Fluid as the simulation solver and Scr
 - Smoothed depth / thickness image
   - Get smoothed depth/thickness image by using bilateral filter to keep the boundary, which makes the surface of water look less particle-like.
 
-![Fluid_CubemapR](D:\MySpace\Site\Fluid\Fluid_CubemapR.gif)
+![Fluid_CubemapR](https://github.com/chenx0731/Fluid-Simulation/blob/main/Run/Captures/Fluid_CubemapR.gif?raw=true)
