@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{8e2e161c-be1b-4fee-ade2-bbc5fad13d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{7c3b9e7b-971f-4f56-8d8a-60c96921d7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulator">
+      <UniqueIdentifier>{d3374cfa-f479-4e9e-a7f8-77cde4f84c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{b3345aac-fe09-4a02-aed5-aacc9f9dc072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{187873a0-fdf6-44b4-9896-b4da68b34d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ComputeShaders">
+      <UniqueIdentifier>{d30c2d48-25e7-4aa3-8e84-bb63767bbece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Utils">
+      <UniqueIdentifier>{5f5a861c-2dd7-413c-8236-b1084e705d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Rendering">
+      <UniqueIdentifier>{8dc5e423-db71-40ff-8040-d93a03c288d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSolver.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusGui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SPHKernels.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="NeighborSearch.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionBasedFluid.cpp">
+      <Filter>Simulator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSolver.hpp">
+      <Filter>Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusGui.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SPHKernels.hpp">
+      <Filter>Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.hpp">
+      <Filter>Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="NeighborSearch.hpp">
+      <Filter>Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionBasedFluid.hpp">
+      <Filter>Simulator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run\Data\Shaders\Default.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\MathUtils.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\LinearDepthVisualizer.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BitonicMergeSort.hlsl">
+      <Filter>Shaders\ComputeShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\PBFSim.hlsl">
+      <Filter>Shaders\ComputeShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\SPHKernels.hlsl">
+      <Filter>Shaders\Utils</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\SpatialHash3D.hlsl">
+      <Filter>Shaders\Utils</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\Constants.hlsl">
+      <Filter>Shaders\Utils</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BlurDepthTexture.hlsl">
+      <Filter>Shaders\Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\CalculateNormalMap.hlsl">
+      <Filter>Shaders\Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\ScreenSpaceSphere.hlsl">
+      <Filter>Shaders\Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\CalculateThickness.hlsl">
+      <Filter>Shaders\Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\Skybox.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\FluidFinalMerge1.hlsl">
+      <Filter>Shaders\Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\Kuwahara.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\SortCS.hlsl">
+      <Filter>Shaders\ComputeShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BilateralFilterCS.hlsl">
+      <Filter>Shaders\ComputeShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\GenerateCaustics.hlsl">
+      <Filter>Shaders\Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\SpriteLitTBN.hlsl">
+      <Filter>Shaders\Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\CalculateCausticCS.hlsl">
+      <Filter>Shaders\ComputeShaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
