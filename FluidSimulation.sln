@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluidSimulation", "Code\Game\Game.vcxproj", "{64148AA8-6459-42B1-9044-89659E93980D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\Engine\Code\Engine\Engine.vcxproj", "{2998347A-0F66-44D7-9472-E448B00871BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Fastbreak|x64 = Fastbreak|x64
+		Fastbreak|x86 = Fastbreak|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64148AA8-6459-42B1-9044-89659E93980D}.Debug|x64.ActiveCfg = Debug|x64
+		{64148AA8-6459-42B1-9044-89659E93980D}.Debug|x64.Build.0 = Debug|x64
+		{64148AA8-6459-42B1-9044-89659E93980D}.Debug|x86.ActiveCfg = Release|Win32
+		{64148AA8-6459-42B1-9044-89659E93980D}.Debug|x86.Build.0 = Release|Win32
+		{64148AA8-6459-42B1-9044-89659E93980D}.Fastbreak|x64.ActiveCfg = Fastbreak|x64
+		{64148AA8-6459-42B1-9044-89659E93980D}.Fastbreak|x64.Build.0 = Fastbreak|x64
+		{64148AA8-6459-42B1-9044-89659E93980D}.Fastbreak|x86.ActiveCfg = Fastbreak|Win32
+		{64148AA8-6459-42B1-9044-89659E93980D}.Fastbreak|x86.Build.0 = Fastbreak|Win32
+		{64148AA8-6459-42B1-9044-89659E93980D}.Release|x64.ActiveCfg = Release|x64
+		{64148AA8-6459-42B1-9044-89659E93980D}.Release|x64.Build.0 = Release|x64
+		{64148AA8-6459-42B1-9044-89659E93980D}.Release|x86.ActiveCfg = Release|Win32
+		{64148AA8-6459-42B1-9044-89659E93980D}.Release|x86.Build.0 = Release|Win32
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Debug|x64.ActiveCfg = Debug|x64
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Debug|x64.Build.0 = Debug|x64
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Debug|x86.Build.0 = Debug|Win32
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Fastbreak|x64.ActiveCfg = Fastbreak|x64
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Fastbreak|x64.Build.0 = Fastbreak|x64
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Fastbreak|x86.ActiveCfg = Fastbreak|Win32
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Fastbreak|x86.Build.0 = Fastbreak|Win32
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Release|x64.ActiveCfg = Release|x64
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Release|x64.Build.0 = Release|x64
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Release|x86.ActiveCfg = Release|Win32
+		{2998347A-0F66-44D7-9472-E448B00871BA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {849623F0-EDE1-4E20-8CD2-FBC45F1AEA9E}
+	EndGlobalSection
+EndGlobal
